@@ -1,0 +1,234 @@
+{
+    "global": {
+        "check_for_updates_on_startup": true,
+        "show_in_menu_bar": true,
+        "show_profile_name_in_menu_bar": false
+    },
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "Change Option + h/j/k/l to Arrows",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "h",
+                                    "modifiers": [
+                                        "left_command"
+                                    ]
+                                },
+                                "to": {
+                                    "key_code": "left_arrow",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": [
+                                        "left_command"
+                                    ]
+                                },
+                                "to": {
+                                    "key_code": "down_arrow",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": [
+                                        "left_command"
+                                    ]
+                                },
+                                "to": {
+                                    "key_code": "up_arrow",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": [
+                                        "left_command"
+                                    ]
+                                },
+                                "to": {
+                                    "key_code": "right_arrow",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ],
+                "title": "Vi Style Arrows"
+            },
+            "devices": [],
+            "fn_function_keys": [
+                {
+                    "disabled": false,
+                    "from": "f1",
+                    "product_id": 0,
+                    "to": "display_brightness_decrement",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f2",
+                    "product_id": 0,
+                    "to": "display_brightness_increment",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f3",
+                    "product_id": 0,
+                    "to": "mission_control",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f4",
+                    "product_id": 0,
+                    "to": "launchpad",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f5",
+                    "product_id": 0,
+                    "to": "illumination_decrement",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f6",
+                    "product_id": 0,
+                    "to": "illumination_increment",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f7",
+                    "product_id": 0,
+                    "to": "rewind",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f8",
+                    "product_id": 0,
+                    "to": "play_or_pause",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f9",
+                    "product_id": 0,
+                    "to": "fastforward",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f10",
+                    "product_id": 0,
+                    "to": "mute",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f11",
+                    "product_id": 0,
+                    "to": "volume_decrement",
+                    "vendor_id": 0
+                },
+                {
+                    "disabled": false,
+                    "from": "f12",
+                    "product_id": 0,
+                    "to": "volume_increment",
+                    "vendor_id": 0
+                }
+            ],
+            "name": "Macbook",
+            "selected": true,
+            "simple_modifications": [
+                {
+                    "disabled": false,
+                    "from": "caps_lock",
+                    "product_id": 628,
+                    "to": "escape",
+                    "vendor_id": 1452
+                },
+                {
+                    "disabled": false,
+                    "from": "left_control",
+                    "product_id": 256,
+                    "to": "escape",
+                    "vendor_id": 2131
+                },
+                {
+                    "disabled": false,
+                    "from": "left_option",
+                    "product_id": 256,
+                    "to": "left_command",
+                    "vendor_id": 2131
+                },
+                {
+                    "disabled": false,
+                    "from": "left_command",
+                    "product_id": 256,
+                    "to": "left_control",
+                    "vendor_id": 2131
+                },
+                {
+                    "disabled": false,
+                    "from": "escape",
+                    "product_id": 256,
+                    "to": "grave_accent_and_tilde",
+                    "vendor_id": 2131
+                },
+                {
+                    "disabled": false,
+                    "from": "grave_accent_and_tilde",
+                    "product_id": 256,
+                    "to": "fn",
+                    "vendor_id": 2131
+                },
+                {
+                    "disabled": false,
+                    "from": "",
+                    "product_id": 0,
+                    "to": "",
+                    "vendor_id": 0
+                }
+            ],
+            "virtual_hid_keyboard": {
+                "caps_lock_delay_milliseconds": 0,
+                "keyboard_type": "ansi"
+            }
+        }
+    ]
+}
+

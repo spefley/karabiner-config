@@ -1,0 +1,31 @@
+{
+    "title": "Vi Style Arrows",
+    "rules": [
+        {
+            "description": "Change Option + h/j/k/l to Arrows",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("h", ['option'], ['caps_lock']) %>,
+                    "to": <%= to([["left_arrow"]]) %>
+                },
+                {
+                    "type": "basic",
+                    "from": <%= from("j", ['option'], ['caps_lock']) %>,
+                    "to": <%= to([["down_arrow"]]) %>
+                },
+                {
+                    "type": "basic",
+                    "from": <%= from("k", ['option'], ['caps_lock']) %>,
+                    "to": <%= to([["up_arrow"]]) %>
+                },
+                {
+                    "type": "basic",
+                    "from": <%= from("l", ['option'], ['caps_lock']) %>,
+                    "to": <%= to([["right_arrow"]]) %>
+                }
+            ]
+        }
+    ]
+}
+
